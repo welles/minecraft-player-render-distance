@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "See the other players on the server far beyond the view distance: the server sends them from much further away and the client draws them even where no chunks are loaded.",
+  "icon": "assets/${id}/icon.png",
+  "authors": [
+    "Nico Welles"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.welles.playerrenderdistance.PlayerRenderDistanceFabric"
+    ],
+    "modmenu": [
+      "dev.welles.playerrenderdistance.PlayerRenderDistanceModMenu"
+    ]
+  },
+  "mixins": [
+    "playerrenderdistance.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader}",
+    "minecraft": "${minecraft}"
+  }
+}
