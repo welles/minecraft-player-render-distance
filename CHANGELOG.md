@@ -3,7 +3,7 @@
 All notable changes to this mod are documented in this file. The format is based on
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the mod follows [Semantic Versioning](https://semver.org/).
 
-## [Unreleased]
+## [1.0.0] - 2026-11-09
 
 ### Added
 
@@ -12,3 +12,5 @@ All notable changes to this mod are documented in this file. The format is based
 - Players beyond half the render distance are drawn closer and smaller, so the fog and Distant Horizons' fade into
   its far terrain do not hide them.
 - Settings in `config/playerrenderdistance.properties`, editable in game through NeoForge's mod list or Mod Menu.
+
+[1.0.0]: https://github.com/welles/minecraft-player-render-distance/releases/tag/v1.0.0
