@@ -5,6 +5,8 @@
 A Minecraft mod for **Fabric** and **NeoForge** (Minecraft 1.21.1 – 26.3) for small multiplayer servers: you see the
 **other players far beyond the view distance**, hundreds of blocks away, even where your client has no chunks loaded.
 
+![Zooming in on a waving player about 220 blocks away, on the far terrain of Distant Horizons](media/zoom-distant-horizons.gif)
+
 In vanilla, the server only sends you the players within its view distance, and your client only draws them up to
 the entity distance from the video settings (64 blocks at 100%) and only where chunks are loaded. Fog hides them even
 before that. With this mod:

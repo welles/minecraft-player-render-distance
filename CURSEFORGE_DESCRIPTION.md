@@ -8,6 +8,8 @@ summary: See your friends from hundreds of blocks away: other players stay visib
 
 See the other players on your server far beyond the view distance: across the valley, on the next mountain, hundreds of blocks away.
 
+![Zooming in on a waving player about 220 blocks away, on the far terrain of Distant Horizons](https://raw.githubusercontent.com/welles/minecraft-player-render-distance/main/media/zoom-distant-horizons.gif)
+
 ## Features
 
 - In vanilla, the server only sends you the players within its view distance, and your client only draws them up to 64 blocks and only where chunks are loaded. With this mod the **server** sends you the players within **1024 blocks** (configurable), and your **client** draws them there, **even where no chunks are loaded**.
